@@ -7,14 +7,18 @@
 
 主要通过猫眼的API获取票房数据。
 
-效果如图：
-![PC端口](https://github.com/user-attachments/assets/32df9c82-2650-4771-8133-41c6e80a7a0a)
-![手机端](https://github.com/user-attachments/assets/16db69f5-5d66-4186-9a40-5273856d191a)
+### 效果如图：
+
+PC 端：![PC端口](https://github.com/user-attachments/assets/32df9c82-2650-4771-8133-41c6e80a7a0a)
+
+移动端：![手机端](https://github.com/user-attachments/assets/16db69f5-5d66-4186-9a40-5273856d191a)
 
 
 
-
+### 配置：
 涉及到猫眼接口需要在 nginx 中配置反向代理，示例：
+> 需在国内服务器运行，测试香港或国外服务器请求时会报未认证。
+
 
 ```conf
 server {
