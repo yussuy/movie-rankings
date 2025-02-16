@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>全球电影票房排行榜</title>
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- 清除缓存的图标 -->
+    <link rel="icon" type="image/png" sizes="32x32" href="images/nezha-favicon.png?v=1">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/nezha-favicon.png?v=1">
+    <link rel="shortcut icon" type="image/png" href="images/nezha-favicon.png?v=1">
+    
+    <!-- 强制刷新图标 -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+</head>
+<body>
+    <div class="container">
+        <h1>全球电影票房排行榜 TOP 30</h1>
+        <div class="update-info">
+            <div class="update-times">
+                <span>下次更新：<span id="countdown">10:00</span></span>
+                <span>最后更新时间：<span id="updateTime"></span></span>
+            </div>
+            <div class="exchange-rate" id="exchangeRate"></div>
+        </div>
+        <div class="movie-list" id="movieList">
+            <!-- 电影列表将通过 JavaScript 动态生成 -->
+        </div>
+    </div>
+    <script src="js/api.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html> 
